@@ -1,11 +1,10 @@
 import React from 'react';
-import { Stack, Button } from '@mui/material';
-import { useState } from 'react';
+import { Stack, Button, Box } from '@mui/material';
 
 const MuiButton = () => {
   
   return (
-    <Stack spacing={4} alignContent='center'>
+    <Stack spacing={4} >
 
         <Stack spacing={3} direction='row'>
             <Button variant='text'
@@ -22,8 +21,6 @@ const MuiButton = () => {
             <Button variant='contained' color='error'>Contained</Button>
             <Button variant='outlined' color='info'>Outlined</Button>
         </Stack>
-
-
 
     </Stack>
   )
