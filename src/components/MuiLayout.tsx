@@ -20,13 +20,13 @@ const MuiLayout = () => {
         </Grid>
         <Grid item xs={6}>
             <Box padding={2} margin={10} height='auto' width='auto'> 
-                <Typography variant='h3'><h3></h3> heading</Typography>
+                <Typography variant='h3'><h3> dfd </h3> heading</Typography>
             </Box>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={3}>
             <Box bgcolor='green' p={2} m={3}> box 3</Box>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={9}>
             <Box bgcolor='pink' p={2} m={3}> box 4</Box>
         </Grid>
     </Grid>
